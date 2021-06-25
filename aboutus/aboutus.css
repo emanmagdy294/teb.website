@@ -1,0 +1,53 @@
+.bg-about
+{
+    background-image: url(../images/pexelsphoto355934.jpeg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.bg-section2
+{
+    background-color: rgb(88, 152, 177);
+}
+.captionHealth
+{
+    background-color:rgba(0, 9, 8,.4);
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+}
+.addressCaption
+{
+    background-color:rgba(0, 9, 8,.6);
+    border-radius: 10px;
+    color: #ffb727 ;
+} 
+.read
+{
+    color: #ffb727 ;
+     font-size: 50px;
+}
+.aboutus-paragraph
+{
+    line-height: 2rem;
+}
+
+.image-ani {
+    background-image: url(../images/vod-1598870783724-2ecf2e0653b2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 50vh;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slider 
+{
+    0%{ background-image: url(../images/3549768382775236467.png);}
+    50%{ background-image: url(../images/car1485291571150-772bcfc10da5.jpg);}
+    100%{background-image: url(../images/vod-1598870783724-2ecf2e0653b2.jpg);}
+}

@@ -1,0 +1,80 @@
+.content{
+    color:black;
+    font-family:cursive;
+    font-size: 20px;
+    text-align:right;
+    direction: rtl;
+}
+.text
+{
+    font-size: 25px;
+    color:#ffb727 ;
+}
+/******************************************************/
+
+.IMAGE-HOVER
+{
+    position: relative;
+overflow: hidden;
+}
+.protofolio-img
+{
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.IMAGE-HOVER:hover img
+{
+    transform: scale(1.1 , 1.1);
+    transition-duration: .5s;
+}
+.IMAGE-HOVER:hover .protofolio-img
+{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.8);
+    
+}
+.bg 
+{
+    background-color: rgb(179, 172, 172,.3);
+    border-radius: 6px;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+/******************************************************/
+
+ .foot{
+     border: solid 2px rgb(194, 192, 192);
+ }
+ .foot-img
+ {
+  border-radius: 50%; 
+  width: 10%;  
+ }
+ .foot-post
+ {
+     padding-left: 50px;
+ }
+
+
+ .go
+ {
+     text-decoration: none;
+ }
+ .vidio:hover
+ {
+    color:#ce9f43 ;
+    background-color:rgba(71, 66, 66 ,.4) ;
+   }
+.vidieo 
+{
+    height: 500px;
+}
+

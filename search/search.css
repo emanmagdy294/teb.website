@@ -1,0 +1,28 @@
+.bg-about
+{
+    background-image: url(../images/staff1.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.bg-section2
+{
+    background-color: rgb(88, 152, 177);
+}
+.addressCaption
+{
+    background-color:rgba(0, 9, 8,.4);
+    background-position: center;
+    background-size:cover;
+    width: 50%;
+    height: 100vh;
+}
+
+
+.slider
+{
+    background-image: url(../images/ghh-min.jpg);
+    background-attachment: fixed;
+}
+/**************************/

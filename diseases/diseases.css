@@ -1,0 +1,96 @@
+ul,li a
+{
+  cursor: pointer;
+color: rgb(255, 170, 12) ;
+}
+ul,li a:hover
+{
+cursor: pointer;
+color: #D1BC87 ;  
+}
+p{
+    line-height:2;
+}
+.h4
+{
+line-height:1.5;
+}
+.content{
+    font-family:cursive;
+    font-size: 20px;
+    text-align:right;
+    direction: rtl;
+}
+.contentone
+{
+    font-family:cursive;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align:right;
+    direction: rtl;
+   color:  rgb(226, 199, 149);
+}
+/**************************/
+.tenAdvices {
+    font-size: 50px; 
+    color: blanchedalmond; 
+    font-family: Impact;
+}
+
+.buttonqoute
+{
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+    background-color: rgb(207, 138, 10) ;
+    color: rgb(97, 92, 92);
+    font-size: 20px;
+    border-radius: 3px;
+
+}
+.buttonqoute:hover
+{
+    background-color: #b6a884 ;
+}
+span{
+    font-size: 25px;
+    color: rgb(151, 171, 207);
+}
+img
+{
+    box-shadow: -5px 2px 54px -9px rgba(211, 199, 177, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.color
+{
+    background-color:#f3bc4d  ;
+}
+.startsection
+{
+    padding-top: 100px;
+}
+ul li a {
+    color: #ffffff !important;
+   }
+  
+.nav-style{
+    width: 100%;
+    height: 90px !important;
+    background: rgba(12,12,13,0.78) !important;
+    position: fixed ;
+    z-index: 1001 !important ;
+    }
+    
+    ul li a:hover{
+     color: #C0A756 !important
+    }
+    a.active{
+     color: #C0A756  !important;
+    }
+
+    .icon-style{
+        background-color: #b89627!important;
+}
+       

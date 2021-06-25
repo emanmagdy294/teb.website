@@ -1,0 +1,10 @@
+iframe
+{
+    height: 300px;
+   border-radius: 15px;
+}
+.bord
+{
+    border-top: solid 2px rgb(235, 223, 223);
+    margin-top: 10px;
+}

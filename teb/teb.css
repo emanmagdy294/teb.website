@@ -1,0 +1,62 @@
+
+.bg-health
+{
+    background-image:url(../images/cbdcdba2c3d2a70b362554a6b4fd749a.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height:70vh;
+    width:100% ;
+}
+
+nav
+{
+    position: fixed;
+    background-color: rgba(165, 160, 160, 0.2); 
+}
+.footer
+{
+    background-color: rgba(165, 160, 160, 0.9); 
+    background-size: cover;
+
+}
+h1
+{
+    font-size: 60px;
+    color: #625c4f ;
+}
+/*************/
+.rowsUP
+{
+    margin-top: -60px;
+}
+.icon-health
+{
+    color: whitesmoke;
+    font-size:50px;
+}
+
+.bg-kalp
+{
+    background-color: #24252a;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+
+.bg-brain 
+{
+    background-color: #211f24;
+}
+
+.bg-lungs{
+    
+    background-color: #24252a
+}
+.rowsUP p
+{
+    font-size: 18px;
+}
+.body
+{
+    color: #ffb727 ;
+    font-size: 40px;
+}

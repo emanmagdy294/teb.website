@@ -1,0 +1,66 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .background-login
+  {
+    background-image: url(../images/pexels-photo-5828453.jpeg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;  
+  }
+  .overlay-bg
+  {
+    background-color: rgba(255,255,255,0.2);
+    width: 100%;
+    height: 100%;
+    justify-content: center center;
+    background-size: cover;
+  }
+  .inputForm {
+    background-color: #000000;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+  }
+  .form-control {
+    color: rgb(189, 182, 182) ;
+  }
+  .form-control:focus {
+    background-color: #9fa2a5;
+  }
+  input:focus {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  .inputForm h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+  .inputForm input {
+    background-color: transparent;
+  }
+  .inputForm a {
+    text-decoration: none;
+    color: #fff;
+  }
+  /* ?css about Home page */
+  .home-massage {
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    padding: 48px;
+  }
+  .navbar{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+  }
+  
+  .btn-outline-warning {
+    color: rgba(255,255,255,.5);
+  }
+  .btn-outline-warning:hover{
+    color: #fff;
+  }
+  .style-text-login
+  {
+    color: #ffffff;
+  }
+  .signup
+  {
+    cursor: pointer;;
+  }
