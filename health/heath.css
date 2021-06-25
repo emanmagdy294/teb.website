@@ -53,6 +53,7 @@ h2{
 .bord
 {
     margin-top: 60px;
+    padding: 20px;
     border: solid 6px white;
 }
 
@@ -80,4 +81,11 @@ h2{
     overflow: hidden;
     transition-duration: .5s;
     box-shadow: -5px 2px 54px -9px rgb(255, 170, 12);
+}
+/***********************************/
+.textColor
+{
+    color: rgb(23, 88, 131);
+    font-size: 20px;
+    padding: 10px;
 }

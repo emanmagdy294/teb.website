@@ -31,9 +31,12 @@ body
     bottom: 30px;
     right: 30px;
     z-index: 99999;
-    color:#ffb727 ;
+    font-size: 30px;
 }
-
+.btnup
+{
+    color:#e2c17e ;
+}
 /************************************************************/
 
 /**sidebar**/

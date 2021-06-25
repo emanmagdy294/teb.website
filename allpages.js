@@ -1,4 +1,4 @@
-/*let aboutOffset = $("#about").offset().top;
+let aboutOffset = $("#about").offset().top;
 $(window).scroll(function(){
 let wScroll = $(window).scrollTop();
 if(wScroll > aboutOffset - 50)
@@ -16,7 +16,7 @@ else
 
 $("#btnUp").click(function(){
     $("html , body") .animate({scrollTop:0} , 2000);
-})*/
+})
 /********************************************************************/
 /* SIDE BOX */
 

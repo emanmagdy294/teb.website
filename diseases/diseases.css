@@ -16,19 +16,19 @@ p{
 line-height:1.5;
 }
 .content{
-    font-family:cursive;
-    font-size: 20px;
+    font-size: 22px;
     text-align:right;
     direction: rtl;
+    color:  rgb(45, 29, 65);
+
 }
 .contentone
 {
-    font-family:cursive;
     font-size: 40px;
     font-weight: bolder;
     text-align:right;
     direction: rtl;
-   color:  rgb(226, 199, 149);
+    color: whitesmoke ;
 }
 /**************************/
 .tenAdvices {
@@ -54,7 +54,7 @@ line-height:1.5;
 }
 span{
     font-size: 25px;
-    color: rgb(151, 171, 207);
+    color: rgb(23, 88, 131);
 }
 img
 {
@@ -94,3 +94,9 @@ ul li a {
         background-color: #b89627!important;
 }
        
+.bord
+{
+    margin-top: 60px;
+    padding: 20px;
+    border: solid 6px white;
+}
