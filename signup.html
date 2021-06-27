@@ -35,8 +35,6 @@
           <i class="fas fa-stethoscope mr-2 font-weight-bold emergency"></i>
           <a class=" mr-4 address" id="HOME" >EMERGENCY</a>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <a href="signup.html"><button class="btn btn-outline-light my-2 my-sm-0 mr-3"
-                type="submit">تسجيل</button></a>
             <a href="index.html"><button class="btn btn-outline-light my-2 mr-3 my-sm-0" type="submit">دخول</button></a>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -56,28 +54,31 @@
               <h1 class="style-text-login">.....اشترك معنا </h1>
               <div class="form-group">
                 <input type="text" name="userName" id="userNameSignUp" class="form-control"
-                  placeholder="Enter your name">
-                <div id="nameAlert" class="alert alert-danger my-2 d-none ">The Name is Invalid</div>
+                  placeholder="الاسم">
+                <div id="nameAlert" class="alert alert-danger my-2 d-none ">قم بإدخال الاسم</div>
 
               </div>
               <div class="form-group">
-                <input type="email" name="email" id="signUpEmail" class="form-control" placeholder="Enter your email">
-                <div id="emailAlert" class="alert alert-danger my-2 d-none ">The Email is Invalid</div>
+                <input type="email" name="email" id="signUpEmail" class="form-control" placeholder="الإيميل">
+                <div id="emailAlert" class="alert alert-danger my-2 d-none ">تحقق من الإيميل</div>
 
               </div>
               <div class="form-group">
                 <input type="password" name="password" id="signUpPassword" class="form-control"
-                  placeholder="Enter your password">
-                <div id="passAlert" class="alert alert-danger my-2 d-none ">The password is Invalid</div>
+                  placeholder="الرقم السرى">
+                <div id="passAlert" class="alert alert-danger my-2 d-none "> تحقق من الرقم السرى</div>
 
               </div>
               <div class="form-group">
-                <div class="alert text-success pt-3 d-none" id="success">success</div>
-                <div class="alert text-danger pt-3 d-none" id="checkInput">All inputs is required</div>
-                <div class="alert text-danger pt-3 d-none" id="checkExist">email already exists</div>
-                <button id="signUpButton" class="btn btn-outline-light btn-block mt-4 w-50 m-auto">Sign Up</button>
+                <div class="alert text-success pt-3 d-none" id="success">تم التسجيل بنجاح 
+                  <br>
+                  قم بتسجيل الدخول
+                </div>
+                <div class="alert text-danger pt-3 d-none" id="checkInput"> قم بإدخال جميع الحقول</div>
+                <div class="alert text-danger pt-3 d-none" id="checkExist">هذ الايميل موجود بالفعل </div>
+                <button id="signUpButton" class="btn btn-outline-light btn-block mt-4 w-50 m-auto">اشتراك</button>
               </div>
-              <h6 class="text-white signup">Don’t have an account? <span><a id="goToLoginPage">Sign in</a></span> </h6>
+              <span><a id="goToLoginPage" class="text-white enter"> تسجيل دخول  </a></span> </h6>
             </div>
           </div>
         </div>

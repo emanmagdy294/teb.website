@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap" rel="stylesheet">
-   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="allpages.css">
 
+    <link rel="stylesheet" href="aos/css/aos.css">
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -33,7 +34,7 @@
                     <i class="fas fa-stethoscope mr-2 font-weight-bold emergency"></i>
                     <a class=" mr-4 address" id="HOME" href="homepage.html">EMERGENCY</a>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <a class="btn btn-outline-warning" href="index.html" id="logOut">logout</a>
+                        <a class="btn btn-outline-warning" href="index.html" id="logOut">تسجيل الخروج </a>
 
                     </ul>
 
@@ -70,7 +71,7 @@
     <div class=" container mt-5 " >
         <div class=" row">
             <div class=" col-md-4">
-                <img src="images/pexels-photo-263402 (1).jpeg" class="w-100 mt-5 " alt="emergency" />
+                <img src="images/pexels-photo-263402 (1).jpeg" data-aos="fade-down-right"  class="rounded-sm w-100 mt-5 flip-left" alt="emergency" />
             </div>
             <div class="col-md-6 mt-1 ml-5 text-white content mt-5 ">
                 <p class="font-weight-bolder text"> صفحتنا تقدم لك : </p>
@@ -97,7 +98,7 @@
                     <div class=" image-transport">
                         <div class=" IMAGE-HOVER mt-4">
                             <a href="teb/teb.html">
-                                <img src="images/pexels-photo-4586993.jpeg" class="im w-100" />
+                                <img src="images/pexels-photo-4586993.jpeg"  class="fade-in im w-100" />
                                 <div class="protofolio-img text-white pl-2">
                                     <h4 class=" text-center">طب وصحه </h4>
                                     <p class=" text-center">اقرا المزيد معنا </p>
@@ -106,7 +107,7 @@
                         </div>
                         <div class="IMAGE-HOVER mt-4">
                             <a href="health/health.html">
-                                <img src="images/pexels-seha-5069401.jpeg" class="im w-100" />
+                                <img src="images/pexels-seha-5069401.jpeg"   class="im w-100" />
                                 <div class="protofolio-img text-white">
                                     <h4 class=" text-center">صحه وجمال </h4>
                                     <p class=" text-center">اقرا المزيد معنا </p>
@@ -119,7 +120,7 @@
                     <div class=" image-transport">
                         <div class="IMAGE-HOVER mt-4">
                             <a href="diseases/diseases.html">
-                                <img src="images/pexels-amrad-5327584.jpeg" class="im w-100" />
+                                <img src="images/pexels-amrad-5327584.jpeg"  class="im w-100" />
                                 <div class="protofolio-img text-white">
                                     <h4 class=" text-center">أمراض</h4>
                                     <p class=" text-center">اقرا المزيد معنا </p>
@@ -128,7 +129,7 @@
                         </div>
                         <div class="IMAGE-HOVER mt-4">
                             <a href="medicine/medicine.html">
-                                <img src="images/pexels-photo-3683098.jpeg" class="im  w-100" />
+                                <img src="images/pexels-photo-3683098.jpeg"  class="im  w-100" />
                                 <div class="protofolio-img text-white">
                                     <h4 class=" text-center">الأدويه</h4>
                                     <p class=" text-center">اقرا المزيد معنا </p>
@@ -137,7 +138,7 @@
                         </div>
                         <div class="IMAGE-HOVER mt-4">
                             <a href="search/Searchdoctor.html">
-                                <img src="images/pexels-search-5327653.jpeg" class="im w-100" />
+                                <img src="images/pexels-search-5327653.jpeg"  class="im w-100" />
                                 <div class="protofolio-img text-white">
                                     <h4 class=" text-center"> طاقم الأطباء</h4>
                                     <p class=" text-center">اقرا المزيد معنا </p>
@@ -150,7 +151,7 @@
                     <div class=" image-transport">
                         <div class="IMAGE-HOVER mt-4">
                             <a href="covid19/covid19.html">
-                                <img src="images/pexels-photo-4167541.jpeg" class="im w-100" />
+                                <img src="images/pexels-photo-4167541.jpeg"  class="im w-100" />
                                 <div class="protofolio-img text-white">
                                     <h4 class=" text-center">covid19 </h4>
                                     <p class=" text-center">اقرا المزيد معنا </p>
@@ -160,7 +161,7 @@
 
                         <div class=" IMAGE-HOVER mt-4">
                             <a href="diseases/diseases.html">
-                                <img src="images/pexels-nasiha-3273989.jpeg" class="im w-100" />
+                                <img src="images/pexels-nasiha-3273989.jpeg"  class="im w-100" />
                                 <div class="protofolio-img text-white">
                                     <h4 class=" text-center">نصائح عامه</h4>
                                     <p class=" text-center">اقرا المزيد معنا </p>
@@ -179,7 +180,7 @@
             <div class="col-md-6">
 
                 <div class="">
-                    <div class="images  ">
+                    <div class="images " data-aos="fade-right"  >
                         <img class="imgs-three w-100 " src="images/pexels-cancer-579474.jpeg" alt="work" />
                         <div class=" d-flex justify-content-center align-items-center text-left w-100 h-100 pl-2">
                             <div class="pluss pb-3 pt-3 ">
@@ -195,8 +196,8 @@
                 </div>
 
                 <div class="">
-                    <div class="images  ">
-                        <img class="imgs-three w-100 " src="images/pexels-photo-3771115.jpeg" alt="work" />
+                    <div class="images" data-aos="fade-right">
+                        <img class="imgs-three w-100 "   src="images/pexels-photo-3771115.jpeg" alt="work" />
                         <div class=" d-flex justify-content-center align-items-center text-left w-100 h-100 pl-2">
                             <div class="pluss pb-3 pt-3 ">
                                 <a class="go" href="diseases/diseases.html">
@@ -216,12 +217,12 @@
                 <a href="vidieos/vidieos.html"><button
                         class=" btn text text-center btn-outline-light float-right my-3 vidio">المزيد من
                         الفيديوهات</button></a>
-                <div class="mt-5">
+                <div class="mt-5" data-aos="fade-left" >
                     <iframe src="https://www.youtube.com/embed/uVju5--RqtY?feature=oembed"
                         class=" float-right w-100 vidieo "></iframe>
                 </div>
 
-                <div class="mt-3">
+                <div class="mt-3" data-aos="fade-left" >
                     <h2 class="text text-center btn-outline-light float-right my-4">covid-19 تعرف على احصائيات </h2>
                     <a href="covid19/covid19.html"> <img src="images/cov2.jpeg" class="w-100">
                     </a>
@@ -261,9 +262,18 @@
         </div>
     </section>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="allpages.js"></script>
+    <script src="aos/js/aos.js"></script>
+   <script>
+   AOS.init({
+        offset:400,
+        duration:1000
+    })
+   </script>
+ 
+
 </body>
 
 </html>

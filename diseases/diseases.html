@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap" rel="stylesheet">
-   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../allpages.css">
     <link rel="stylesheet" href="diseases.css">
 
-
+    <link rel="stylesheet" href="../aos/css/aos.css">
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -90,8 +90,8 @@
     <div class="tab-content color p-3" id="myTabContent">
         <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
             <div class=" container mt-5">
-                <div class=" row">
-                    <div class=" col-md-4 mt-2">                 
+                <div class=" row"  data-aos="fade-out">
+                    <div class=" col-md-4 mt-2" >                 
                             <img src="../images/pexels-teeth-3845653.jpeg" class="w-100">
                     </div>
                     <div class=" col-md-4 mt-2">                     
@@ -117,7 +117,7 @@
                     </div>
                 </div>
 
-                <div class=" row mt-2">
+                <div class=" row mt-2" >
                     <div class=" col-md-4 mt-2">
                         <img src="../images/pexels-covid-4099465.jpeg" class="w-100">
                     </div>
@@ -135,7 +135,7 @@
         <div class="tab-pane fade" id="teeth" role="tabpanel" aria-labelledby="teeth-tab">
             <div class=" container my-5">
                 <div class=" row">
-                    <div class="col-md-5 pt-5">
+                    <div class="col-md-5 pt-5"  >
                         <img src="../images/pexels-teeth-3845653.jpeg" class="w-100" alt="teeth" />
                     </div>
 
@@ -463,6 +463,14 @@
 
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="diseases.js"></script>
+    <script src="../aos/js/aos.js"></script>
+    <script>
+    AOS.init({
+         offset:400,
+         duration:1000
+     })
+    </script>
+  
 </body>
 
 </html>

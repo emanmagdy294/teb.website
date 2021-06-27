@@ -26,3 +26,12 @@
     background-attachment: fixed;
 }
 /**************************/
+.img-hover
+{
+    transition: 1s;
+    
+}
+.img-hover:hover
+{
+    transform:scale(1.1 , 1.1);
+}
