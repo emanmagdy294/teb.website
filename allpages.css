@@ -1,6 +1,75 @@
 *{
     font-family: 'Amiri', serif;
 }
+/* #load{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   z-index: 9999;
+    background-color: #242f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner {
+   
+ 
+    text-align: center;
+    font-size: 10px;
+  
+  }
+  
+  .spinner > div {
+    background-color: rgb(212, 200, 200);
+    height: 60px;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+    background-color: rgb(243, 200, 200);
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+    background-color: rgb(212, 171, 171);
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+    background-color: rgb(187, 151, 151);
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+    background-color: rgb(156, 124, 124);
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  } */
 a:hover
 {
     text-decoration: none;
@@ -9,6 +78,7 @@ a:hover
 body
 {
     background-color: rgb(41, 39, 39);
+    overflow: hidden;
 }
 .emergency
 {
