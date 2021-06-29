@@ -1,1 +1,45 @@
 
+.title h2
+{
+font-size: 80px;
+font-weight: 900;
+margin-bottom: 30px;
+color:#999;
+}
+.title h3
+{
+font-size: 40px;
+font-weight: 900;
+color: #f1f1f1;
+}
+.title h3::after
+{
+    content: "";
+    position: absolute;
+    top: 140%;
+    left: 40%;
+    width: 45px;
+    height: 1px;
+    background-color: rgb(214, 210, 210);
+}
+
+
+.titles p {
+       font-size: 18px;
+       color: #999;
+       margin-bottom: 70px;
+}
+
+.btnStyle
+{
+    border: none;
+    background-color: #d1a54d;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.btnStyle:hover
+{
+    background-color: #dba230;
+
+}
