@@ -46,22 +46,3 @@ function closeSlide()
   lightBoxContainer.style.display="none";
 }
 closeBtn.addEventListener("click" , closeSlide);
-/* loading screen */
-// $(document).ready(function(){
-// $("#load").fadeOut(1000,function
-//     (){
-//         $("body").css("overflow","auto")
-//     });
-// });
-
-
-
-// $(window).on("load",function(){
-//     $("#load").fadeOut("slow");
-// });
-
-
-let loading=document.getElementById("load");
-window.addEventListener('load',function(){
-    loading.style.display='none';
-})
